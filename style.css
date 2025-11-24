@@ -14,15 +14,22 @@
   font-variation-settings:
     "wdth" 100;
 }
+.secondary-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 /* Shared styles */
 .header-text{
     color: #FFFFFF;
     font-size: 72px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 95px;
 }
-
+.sec-area{
+    margin-top: 120px;
+}
 
 /* Banner styles */
 .banner{
@@ -43,4 +50,93 @@
 .banner-title{
     color: #FFFFFF;
     font-size: 32px;
+}
+
+/* Offer style */
+.offer-section {
+    text-align: center;
+}
+.offer-heading{
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: 800;
+}
+.offer-subheading{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500;
+    letter-spacing: 0%;
+    margin-top: 50px;
+}
+.offer-title{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin: 16px 0 50px 0;
+}
+
+/* Welcome Style */
+.wel-sec{
+    height: 600px;
+    margin-top: 50px;
+    background: url(images/Vectorrr.png), linear-gradient(to right,#070211, #07021100);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+    border-radius: 16px;
+    padding: 0px 125px;
+}
+.wel-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 125px;
+}
+.wel-columns-1{
+    width: 70%;
+}
+.wel-columns-2{
+    width: 30%;
+}
+.wel-header{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 11px;
+}
+.wel-para{
+    margin-top: 25px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+.wel-link{
+   font-size: 20px; 
+   color: #FFFFFF;
+   text-transform: uppercase;
+   font-weight: 700;   
+}
+.wel-columns-1 a{
+   text-decoration: none;
+}
+
+
+/* Info Section */
+.info-sec{
+    background: linear-gradient(to bottom, #ff0000, #ff000000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 385px;
+    border-radius: 16px;
+    opacity: 10%;
+}
+.info-items h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #070211;
 }
