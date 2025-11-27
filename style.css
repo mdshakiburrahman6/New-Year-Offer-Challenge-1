@@ -202,3 +202,52 @@
 .col-no-3 img{
     margin-top: 40px;
 }
+
+
+/* Holidays Sale Styles */
+.holiday-sale{
+    text-align: center;
+    /* padding: 0px 126px; */
+}
+.holiday-sale-subtitle{
+    font-size: 24px;
+    font-family: 400;
+    text-transform: uppercase;
+    color: #070211;
+    margin-bottom: 16px
+}
+.holiday-sale-title{
+    font-size: 72px;
+    font-family: 900;
+    color: #070211;
+    margin-bottom: 28px;
+}
+.holiday-sale-title span{
+    font-size: 72px;
+    font-family: 900;
+    color: #FF0000;
+}
+.holiday-sale-images{
+    width: 100%;
+    margin-top: 65px;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+/* .element img{
+    width: 100%;
+}
+.element-1{
+    position:relative;
+    bottom:-250px;
+} */
+.element-2{
+    margin-bottom: 300px;
+}
+.holiday-sale-images{}
+
